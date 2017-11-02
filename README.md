@@ -26,7 +26,7 @@ Start by creating a variable for each pizza type that stores the display name of
 
 Create a varibale for the price. 
 
-Start the pizza bot by printing `"Hey! Happy to serve your pizza. On our menu we have, PIZZA_NAME1, PIZZA_NAME2 and PIZZA_NAME3"` using your variables.  
+Start the pizza bot by printing `"Hey! Happy to serve your pizza. On our menu we have, PIZZA_NAME1, PIZZA_NAME2 and PIZZA_NAME3"` using your variables.
 
 Ask the user which pizza they want. 
 
@@ -85,6 +85,8 @@ After completing this assignment your should be confortable using:
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Make the photos look nice on retina displays (high pixel density).
-1. Align the cards to the center of the page.
-1. Use box shadows to make the cards look like Polaroid pictures.
+1. Go to the Wikipedia Article about [Hawaiian Pizza](https://en.wikipedia.org/wiki/Hawaiian_pizza) and:
+
+* Copy the first three paragraphs. Store the text in a String
+* Make your program count the number of words in the string
+* Make your program count the number of times the latin word etappears
