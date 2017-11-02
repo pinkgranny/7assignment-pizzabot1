@@ -90,3 +90,8 @@ Done with the main task? Here's some ideas for things to continue with:
 * Copy the first three paragraphs. Store the text in a String
 * Make your program count the number of words in the string
 * Make your program count the number of times the latin word etappears
+
+2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead. Start by making it work in codepen and then move it into real `html` and `js` files.
+
+A combination of these two examples will help you on the way: [Forms submissions with Javascript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4). 
+`
