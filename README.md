@@ -17,23 +17,30 @@ Today's assignment is to create a little textbased pizzabot in which you can ord
 
 ### 2. Practice variables and types
 
-Your pizzeria will have a very limited meny to start with, you only serve three different pizzas right now; Vegatariana, Hawaii and Pepperoni. You pizzas all have the same price, 89 SEK.  
+A few things about your pizzeria: 
+* Your pizzeria will have a very limited meny to start with, you only serve three different pizzas right now; Vegatariana, Hawaii and Pepperoni. 
+* All your pizzas all have the same price, 80 SEK.
+* Because of the big popularity of your store, you can only order multiple pizzas of the same sort. 
 
 Start by creating a variable for each pizza type that stores the display name of that pizza, meaning the name you will have on the meny. 
 
 Create a varibale for the price. 
 
-Start the pizza bot by printing `"Hey! Happy to serve your pizza. On our menu we have, xxx, xxx and xxx"` using your variables.  
+Start the pizza bot by printing `"Hey! Happy to serve your pizza. On our menu we have, PIZZA_NAME1, PIZZA_NAME2 and PIZZA_NAME3"` using your variables.  
 
 Ask the user which pizza they want. 
 
-Answer by confirming their answer `Great, I'll get started on your USER_ANSWER right away, it will cost PRICE kr`. 
+Print and ask the user: `How many of PIZZA_NAME do you want?`
 
-Expand your program so you can buy multiple pizzas and give the total price of the order.  
+Calculate the total price of the order and print  `Great, I'll get started on your USER_ANSWER right away, it will cost PRICE kr`. 
 
 ### 3. Conditionals 
 
-Add two conditinals to your program: 
+Add three conditinals to your program: 
+
+1. Check that the pizza they order are on the menu and make sure that the user can type either one of the below examples for pizza names (for all types) and your program will still understand: 
+* `Vegetariana`
+* `vegetariana`
 
 1. For everyone ordering Hawaii: You're currently out of pinapple so everytime someone orders a Hawaii you need to tell them that they will get the pizza without pinapple and also discount the price by 20%. 
 
@@ -44,7 +51,9 @@ Add two conditinals to your program:
 
 ### 4. Functions
 
-Create three functions: 
+Transform the functionality of your program into writing Javascript functions.
+
+Create three functions that: 
 1. One that resturns the total cost for the order. 
 1. One that checks if the order is Hawaii and returns the discounted price. 
 1. One that resturns the number of minutes it will take to finish the order. 
@@ -56,16 +65,19 @@ To complete this assignment, you need to fork this repository, paste your code i
 
 ### :books: Reading List
 
-* [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
-* [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [HTML Images](https://www.w3schools.com/html/html_images.asp)
-* [CSS Floats](https://www.w3schools.com/css/css_float.asp)
+* [MDN – Javascript Grammar and Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
+* [MDN – Control flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+* [w3 Schools String methods](https://www.w3schools.com/js/js_string_methods.asp)
 
 ---
 
 ### :boom: Success!
 
-After completing this assignment, you should be comfortable using HTML tags to create layout (with divs, sections, etc). You should also be comfortable with using content tags to insert text and images. Finally, you should understand the effect of margins and padding in CSS.
+After completing this assignment your should be confortable using: 
+* Variables in Javasript
+* String methods in Javascript
+* Control flow and use conditionals in Javascript
+* Use functions in Javascript
 
 ---
 
