@@ -1,6 +1,8 @@
 # Sprint 2: Pizzabot – Part 1
 
-Today's assignment is to create a little textbased pizzabot in which you can order pizza on your computer. The goal is to practice on basic programming concepts in Javascript like varaibles, types, if-statements and functions. For this we will use codepen which can run Javascript code easily. 
+Today's assignment is to create a little textbased pizzabot in which you can order pizza on your computer. The goal is to practice on basic programming concepts in Javascript like varaibles, types, if-statements and functions. 
+
+To do this we will use codepen, in which can run Javascript code easily. 
 
 ## How to complete this assignment
 
@@ -11,16 +13,16 @@ Today's assignment is to create a little textbased pizzabot in which you can ord
 1. Go to `settings` and select `behaviour`. 
 1. Disable `Auto-Updating Preview` and click ok. 
 1. You should now get a new button in your penwindow that says `run`. 
-1. Click on `console`in the lower left corner on the page to see the console. 
+1. Click on `console` in the lower left corner on the page to see the console. 
 1. Type `console.log("I'm Ready!");`and hit `run`. 
 1. If you can se the message `Ì'm ready`in the console, then you are ready to move on. 
 
 ### 2. Practice variables and types
 
 A few things about your pizzeria: 
-* Your pizzeria will have a very limited meny to start with, you only serve three different pizzas right now; Vegatariana, Hawaii and Pepperoni. 
-* All your pizzas all have the same price, 80 SEK.
-* Because of the big popularity of your store, you can only order multiple pizzas of the same sort. 
+* Your pizzeria only serves 3 different pizzas right now; Vegatariana, Hawaii and Pepperoni. 
+* All the pizzas have the same price, 80 SEK.
+* Because of the big popularity and queues, you can only order multiple pizzas of the same sort. 
 
 Start by creating a variable for each pizza type that stores the display name of that pizza, meaning the name you will have on the meny. 
 
