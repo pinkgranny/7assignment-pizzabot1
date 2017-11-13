@@ -6,6 +6,8 @@ To do this we will use codepen, in which can run Javascript code easily.
 
 ## How to complete this assignment
 
+A really good thing is to look thorugh the readings for this assignment - you will find them helpful this time. 
+
 ### 1. Setup the tools to use
 
 1. Go to [codepen.io](https://codepen.io/) and create a new pen. 
@@ -24,25 +26,25 @@ A few things about your pizzeria:
 * All the pizzas have the same price, 80 SEK.
 * Because of the big popularity and queues, you can only order multiple pizzas of the same sort. 
 
-Start by creating a variable for each pizza type that stores the display name of that pizza, meaning the name you will have on the meny. 
+Start by creating a variable for each pizza type. The variable should store the display name of that pizza – the name you will have on the menu. 
 
-Create a varibale for the price. 
+Create a new varibale for the price. 
 
-Start the pizza bot by printing `"Hey! Happy to serve your pizza. On our menu we have, PIZZA_NAME1, PIZZA_NAME2 and PIZZA_NAME3"` using your variables.
+Start the pizza bot by printing in the console `"Hey! Happy to serve you pizza. On our menu we have, xxxx, xxxx and xxxx"`. Use your varibales to print the menu of your pizzeria.  
 
-Ask the user which pizza they want. 
+[Ask](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) the user which pizza they want. Store the answer in a varible. 
 
-Print and ask the user: `How many of PIZZA_NAME do you want?`
+Print and ask the user: `How many of xxxx do you want?`. Store the answer. 
 
-Calculate the total price of the order and print  `Great, I'll get started on your USER_ANSWER right away, it will cost PRICE kr`. 
+Calculate the total price of the order by using your variables and print  `Great, I'll get started on your XXX right away, it will cost XXX kr`. 
 
 ### 3. Conditionals 
 
-Add three conditinals to your program: 
+Add three conditionals to your program: 
 
-1. Check that the pizza they order are on the menu and make sure that the user can type either one of the below examples for pizza names (for all types) and your program will still understand: 
-* `Vegetariana`
-* `vegetariana`
+1. Check that the pizza they order are on the menu. Make sure that the user can type either one of the below examples for pizza names and your program will still understand: 
+* `Vegetariana` (Capitalization)
+* `vegetariana` (Lowercase)
 
 1. For everyone ordering Hawaii: You're currently out of pinapple so everytime someone orders a Hawaii you need to tell them that they will get the pizza without pinapple and also discount the price by 20%. 
 
@@ -53,9 +55,10 @@ Add three conditinals to your program:
 
 ### 4. Functions
 
-Transform the functionality of your program into writing Javascript functions.
+Transform the functionality of your program into writing them in Javascript functions.
 
-Create three functions that: 
+Create four functions that: 
+1. One that returns `true` or `false` if the pizza is on the menu or not. 
 1. One that resturns the total cost for the order. 
 1. One that checks if the order is Hawaii and returns the discounted price. 
 1. One that resturns the number of minutes it will take to finish the order. 
