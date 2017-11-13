@@ -104,7 +104,7 @@ Done with the main task? Here's some ideas for things to continue with:
 
 * Copy the first three paragraphs. Store the text in a String
 * Make your program count the number of words in the string
-* Make your program count the number of times the latin word etappears
+* Make your program count the number of times the word pinapple appears. 
 
 2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead. Start by making it work in codepen and then move it into real `html` and `js` files.
 
