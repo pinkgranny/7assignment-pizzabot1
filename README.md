@@ -74,9 +74,9 @@ Finally, clean up your code by moving some code into functions and then calling 
 
 The functions should all reflect the tasks we've completed so far. So, the functions should be:
 
-1. One that returns `true` or `false` if the pizza is on the menu or not.
-1. One that returns the total cost for the order.
-1. One that returns the number of minutes it will take to finish the order.
+1. `checkOrderName()` which should take the `orderName` variable as an argument and return `true` or `false` if the pizza is on the menu or not.
+1. `totalCost()` which takes `orderQuantity` as an argument and returns the total cost for the order.
+1. `cookingTime()` which takes `orderQuantity` and returns the number of minutes it will take to finish the order.
 
 ### 5. Hand in assignment
 
