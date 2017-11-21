@@ -5,25 +5,60 @@ const pepperoni = "Pepperoni Pizza"
 const pizzaPrice = 80
 
 //Put your Javscript code here:
-alert("Hey! Happy to serve your pizza. On our menu we have " + vegetarian + ", " + hawaiian + " and" +pepperoni + "."")
-var orderName() => prompt("Enter the name of the pizza you want to order today.")
 
-var checkOrderName()
 
-// which should take the orderName variable as an argument and return true or false if the pizza is on the menu or not.
-// When the user enters the orderName prompt, add an if-statement to check if the input text matches any of the pizza name variables (vegetarian, hawaiian, pepperoni).
 
-var orderQuantity() => prompt("How many of " + orderName + " do you want?")
+const pizzaOnMenu = () => {
+let orderInput = prompt("Enter the name of the pizza you want to order today.");
+  if (orderInput === vegetarian || orderInput === hawaiian || orderInput === pepperoni) {
+    return orderInput
+  } else {
+    alert("I'm sorry, could not find that pizza on the menu. Try again, please. On our menu we have " + vegetarian + ", " + hawaiian + " and " +pepperoni + ".")
+    return pizzaOnMenu ()
+  }
+}
 
-var orderTotal=( orderQuantity * pizzaPrice )
-var cookingTime()
+const calculateCookingTime = (quantity) => {
+  if (quantity >0 && quantity <= 2) {
+    return 10
+  } else if (quantity >=3 && quantity <=5) {
+    return 15
+  } else{
+    return 20
+  }
+}
 
-// which takes orderQuantity and returns the number of minutes it will take to finish the order.
+alert("Hey! Happy to serve your pizza. On our menu we have " + vegetarian + ", " + hawaiian + " and " +pepperoni + ".");
+let orderName = pizzaOnMenu()
+let orderQuantity = prompt("How many of " + orderName + " do you want?");
+console.log(orderName + " " + orderQuantity)
+let orderTotal =( orderQuantity * pizzaPrice );
+console.log(orderTotal);
+let cookingTime = calculateCookingTime(orderQuantity)
+// alert("Great, I'll get started on your " + orderName + " right away, it will cost " + orderTotal + "kr.");
+alert("Great, I'll get started on your " + orderName + " right away, it will cost " + orderTotal + "kr. The pizzas will take " + cookingTime + " minutes.");
 
-// Before you print the final Great, I'll get started on your X right away, it will cost Y kr message to the user, calculate the cooking time based on these rules and add it to the message:
+
+
+
+// if (orderQuantity >0 && orderQuantity <= 2){
+//   let cookingTime(10);
+// } else if (orderQuantity >=3 && orderQuantity <=5){
+//   cookingTime(15);
+// } else {
+//   cookingTime(20);
+// console.log(cookingTime);
+// if  checkOrderName(vegetarian || hawaiian || pepperoni)
+// let orderQuantity() => prompt("How many of " + orderName + " do you want?");
 //
-// 1-2 pizzas: The pizzas will take 10 minutes.
-// 3-5 pizzas: The pizzas will take 15 minutes.
-// 6+ pizzas: The pizzas will take 20 minutes.
-
-alert("Great, I'll get started on your " + orderName + " right away, it will cost " + orderTotal + "kr. The pizzas will take " + cookingTime + " minutes." )
+//
+// let orderTotal=( orderQuantity * pizzaPrice );
+// if (orderQuantity >0 && orderQuantity <= 2){
+//   var cookingTime(10);
+// } else if (orderQuantity >=3 && orderQuantity <=5){
+//   var cookingTime(15);
+// } else {
+//   var cookingTime(20);
+// }
+//
+// alert("Great, I'll get started on your " + orderName + " right away, it will cost " + orderTotal + "kr. The pizzas will take " + cookingTime + " minutes.");
